@@ -29,8 +29,8 @@ npm start     # Production
 Runs at  http://localhost:5050
 
 Frontend Setup
-bash
-Copy code
+```bash
+
 cd frontend
 npm install
 npm start
@@ -46,8 +46,7 @@ DELETE	/api/users/:id	Delete user
 GET	/api/users/export/csv	Export users as CSV
 
  User Schema
-js
-Copy code
+
 {
   name: String,
   email: String,
